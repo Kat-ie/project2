@@ -1,0 +1,565 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+.page-container {
+  margin: 0px auto;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.main-header {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.img-logo {
+  width: 87px;
+  margin: 20px;
+}
+.main-nav {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.main-nav a {
+  width: 50%;
+  padding: 10px 0px 15px 0px;
+  border-bottom: #f2f2f2 solid 2px;
+  text-decoration: none;
+  color: black;
+}
+
+.main-nav a:hover {
+  color: #0065fc;
+  border-bottom: #0065fc solid 2px;
+}
+
+.signup-button-container {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+.signup-btn {
+  border: none;
+  color: #0065fc;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+.wrap2 {
+  padding: 15px 10px 10px 15px;
+}
+
+h1 {
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+
+.search-section {
+  display: flex;
+  position: relative;
+  height: 55px;
+  width: 85%;
+  margin: 15px auto;
+}
+
+.search-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 100%;
+  background-color: #f2f2f2;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.search-left-icon {
+  font-size: 18px;
+}
+
+.search-middle {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.input {
+  height: 100%;
+  width: 100%;
+  padding-left: 15px;
+  font-size: 16px;
+  border: none;
+  font-weight: bold;
+  border-top: 3px solid #f2f2f2;
+  border-bottom: 3px solid #f2f2f2;
+  border-radius: 0px 15px 15px 0px;
+}
+
+.btn3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 0px;
+  color: white;
+  height: 100%;
+  width: 55px;
+  font-size: 18px;
+  background-color: #0065fc;
+  border-radius: 15px 15px 15px 15px;
+  border: none;
+}
+.btn3 {
+  cursor: pointer;
+}
+h2 {
+  padding: 10px 15px;
+}
+.fillters {
+  display: flex;
+  padding: 10px 15px;
+}
+
+.f-icon {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  background-color: #deebff;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  color: #0065fc;
+}
+.f-text {
+  position: relative;
+  padding: 10px 15px 10px 55px;
+  border: solid 3px #f2f2f2;
+  border-radius: 25px 25px 25px 25px;
+  font-weight: bold;
+}
+
+.info-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid lightgray;
+  border-radius: 50%;
+  font-size: 12px;
+  height: 25px;
+  width: 25px;
+  padding: 5px;
+  margin-right: 10px;
+  color: #0065fc;
+}
+
+.info {
+  display: flex;
+  width: 90%;
+  margin: 25px auto;
+}
+
+.wrap3 {
+  background-color: #f2f2f2;
+  width: 100%;
+  padding-bottom: 10px;
+}
+.most-p-heading {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+.fa-chart-line {
+  padding: 15px 15px;
+  font-size: 20px;
+}
+.hotel-card {
+  display: flex;
+  width: 90%;
+  height: 150px;
+  margin: 20px auto;
+  border: solid white 3px;
+  box-shadow: 0px 0px 10px 5px #e6e6e6;
+  border-radius: 15px 15px 15px 15px;
+}
+.hotel-card-left {
+  display: flex;
+  width: 45%;
+}
+.hotel-card-right {
+  width: 55%;
+  background-color: white;
+  padding: 15px 5px 20px 15px;
+}
+.hotel-card-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px 0 0 15px;
+}
+.hotel-card-name h3 {
+  font-size: 14px;
+  padding-bottom: 15px;
+}
+.hotel-card-name p {
+  padding-bottom: 15px;
+  font-size: 13px;
+}
+.fa-star {
+  font-size: 11px;
+  color: #0065fc;
+}
+.star1 {
+  padding-top: 25px;
+}
+.gray-star {
+  color: lightgray;
+}
+
+.wrap4 {
+  width: 100%;
+}
+
+.acc-card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 15px auto;
+  border: solid white 3px;
+  box-shadow: 0px 0px 10px 5px #e6e6e6;
+  border-radius: 20px 20px 20px 20px;
+}
+.acc-card-top {
+  display: flex;
+  width: 100%;
+}
+.acc-image {
+  width: 100%;
+  height: 120px;
+  border-radius: 20px 20px 0px 0px;
+}
+.acc-card-bottom {
+  width: 100%;
+  height: 90px;
+  padding: 10px 10px 10px 10px;
+}
+.acc-card-info h3 {
+  font-size: 16px;
+  padding-bottom: 6px;
+}
+
+.acc-card-info p {
+  font-size: 14px;
+}
+
+.star2 {
+  padding: 10px 0px 10px 0px;
+}
+.links {
+  text-decoration: none;
+  color: black;
+}
+.links1 {
+  text-decoration: none;
+  color: black;
+}
+.show {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 20px 10px 20px 15px;
+}
+
+.section-act {
+  width: 100%;
+  padding: 30px 10px 20px 15px;
+}
+
+.act-sect {
+  display: flex;
+  border-radius: 24px 24px 24px 24px;
+  flex-direction: column;
+  box-shadow: 0px 0px 10px 5px #e6e6e6;
+  width: 85%;
+  margin: 20px auto;
+  height: 200px;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+}
+
+.image-act {
+  border-radius: 20px 20px 0px 0px;
+  width: 100%;
+  height: 140px;
+}
+
+.place {
+  font-weight: bold;
+  margin: 15px 0px 0px 15px;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fafafa;
+}
+
+h4 {
+  padding: 15px 15px;
+}
+.nav {
+  text-decoration: none;
+  color: black;
+  width: 100%;
+}
+
+.nav-f {
+  width: 100%;
+  margin-bottom: 20px;
+}
+li {
+  width: 100%;
+  padding: 5px 15px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 1024px) {
+  .page-wrapper {
+    margin: 0px 20px;
+  }
+
+  .logo {
+    height: 70px;
+    margin: 30px 25px 30px 30px;
+  }
+
+  .main-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .main-nav {
+    width: 100%;
+  }
+  .main-nav a {
+    border-top: #f2f2f2 solid 2px;
+    border-bottom: none;
+    width: 100%;
+    padding: 30px 15px 10px 15px;
+  }
+  .signup-button-container {
+    top: 30px;
+    right: 20px;
+  }
+  .main-header-right {
+    margin-right: 100px;
+  }
+  .main-nav a:hover {
+    border-bottom: none;
+    border-top: #0065fc solid 2px;
+  }
+  h1 {
+    font-size: 22px;
+    padding-bottom: 10px;
+  }
+
+  .search-section {
+    width: 350px;
+    margin: 15px 30px 20px 10px;
+  }
+
+  h2 {
+    padding-left: 10px;
+  }
+
+  .fillters {
+    padding: 10px 0px 10px 10px;
+  }
+  .wrap-fill {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .info {
+    margin: 10px;
+  }
+  .f-text {
+    position: relative;
+    padding: 10px 15px 10px 55px;
+    border: solid 3px #f2f2f2;
+    border-radius: 25px 25px 25px 25px;
+    font-weight: bold;
+    width: 100%;
+  }
+
+  .f-text:hover {
+    color: #0065fc;
+  }
+  .desktop {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .most-p-heading {
+    padding: 10px 0px 10px 15px;
+  }
+  .wrap3 {
+    width: 30%;
+    order: 1;
+    height: 500px;
+    border-radius: 25px 25px 25px 25px;
+    margin: 0px 5px 0px 5px;
+  }
+  .wrap4 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+    order: 0;
+    height: 500px;
+    background-color: #fafafa;
+    border-radius: 25px 25px 25px 25px;
+    margin: 0px 5px 0px 5px;
+  }
+  .acc-card {
+    width: 30%;
+    margin: 0px auto;
+    height: 170px;
+  }
+  .wrap4 > h2 {
+    width: 100%;
+    font-size: 20px;
+    margin: 25px 0px 15px 20px;
+    padding: 0px;
+  }
+
+  .acc-card-top {
+    display: flex;
+    width: 100%;
+  }
+  .acc-image {
+    width: 100%;
+    height: 100px;
+    border-radius: 20px 20px 0px 0px;
+  }
+  .acc-card-bottom {
+    width: 100%;
+    height: 80px;
+    padding: 5px 0px 5px 10px;
+  }
+  .acc-card-info h3 {
+    font-size: 14px;
+    padding-bottom: 6px;
+  }
+
+  .acc-card-info p {
+    font-size: 12px;
+  }
+
+  .show {
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    margin: 20px 15px;
+    padding: 0px;
+  }
+
+  .hotel-card {
+    height: 120px;
+    margin: 20px auto;
+    width: 300px;
+  }
+  .hotel-card-left {
+    display: flex;
+    width: 45%;
+  }
+  .hotel-card-right {
+    width: 55%;
+  }
+  .hotel-card-name h3 {
+    font-size: 12px;
+    padding-bottom: 15px;
+  }
+  .hotel-card-name p {
+    padding-bottom: 10px;
+    font-size: 11px;
+  }
+
+  .section-act {
+    width: 25%;
+    padding: 30px 10px 20px 30px;
+  }
+
+  .wrap5 {
+    display: flex;
+    height: 400px;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+    margin-right: 20px;
+  }
+
+  .column:last-child {
+    margin: 0;
+  }
+
+  .cell {
+    height: 48%;
+  }
+
+  .act-sect {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid lightgrey;
+    box-shadow: 0px 0px 10px 5px #e6e6e6;
+    margin: 0;
+  }
+
+  .act-sect .place {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: black;
+    margin: 0;
+  }
+
+  .image-act {
+    height: 100%;
+    width: 100%;
+  }
+
+  .place h4 {
+    margin: 0;
+    margin-left: 20px;
+  }
+
+  .footer {
+    padding: 30px 0px 10px 0px;
+  }
+
+  .nav-f {
+    width: 33%;
+  }
+
+  li {
+    list-style: none;
+  }
+}
