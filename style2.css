@@ -373,6 +373,11 @@ ul {
     top: 30px;
     right: 20px;
   }
+
+  .signup-button-container:hover {
+    cursor: pointer;
+  }
+
   .main-header-right {
     margin-right: 100px;
   }
@@ -396,6 +401,7 @@ ul {
 
   .filters {
     padding: 10px 0px 10px 10px;
+    cursor: pointer;
   }
   .wrap-fill {
     display: flex;
@@ -415,7 +421,9 @@ ul {
 
   .f-text:hover {
     color: #0065fc;
+    border: solid 3px #0065fc;
   }
+
   .desktop {
     display: flex;
     width: 100%;
