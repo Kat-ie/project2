@@ -119,7 +119,13 @@ h1 {
 h2 {
   padding: 10px 15px;
 }
-.fillters {
+
+.filters-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filters {
   display: flex;
   padding: 10px 15px;
 }
@@ -194,15 +200,24 @@ h2 {
   width: 55%;
   background-color: white;
   padding: 15px 5px 20px 15px;
+  border-radius: 0px 12px 12px 0px;
 }
+
 .hotel-card-img {
   width: 100%;
   height: 100%;
   border-radius: 15px 0 0 15px;
 }
+.hotel-card-name {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
 .hotel-card-name h3 {
   font-size: 14px;
   padding-bottom: 15px;
+  height: 40px;
 }
 .hotel-card-name p {
   padding-bottom: 15px;
@@ -308,7 +323,7 @@ h2 {
 }
 
 h4 {
-  padding: 15px 15px;
+  padding: 10px 15px;
 }
 .nav {
   text-decoration: none;
@@ -379,7 +394,7 @@ ul {
     padding-left: 10px;
   }
 
-  .fillters {
+  .filters {
     padding: 10px 0px 10px 10px;
   }
   .wrap-fill {
@@ -478,9 +493,11 @@ ul {
     display: flex;
     width: 45%;
   }
+
   .hotel-card-right {
     width: 55%;
   }
+
   .hotel-card-name h3 {
     font-size: 12px;
     padding-bottom: 15px;
