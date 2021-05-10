@@ -401,8 +401,8 @@ ul {
 
   .filters {
     padding: 10px 0px 10px 10px;
-    cursor: pointer;
   }
+
   .wrap-fill {
     display: flex;
     flex-wrap: wrap;
@@ -422,6 +422,7 @@ ul {
   .f-text:hover {
     color: #0065fc;
     border: solid 3px #0065fc;
+    cursor: pointer;
   }
 
   .desktop {
